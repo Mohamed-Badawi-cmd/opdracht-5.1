@@ -1,0 +1,75 @@
+body{
+    color: white;
+}
+
+.stage {  
+    position: relative;
+    cursor: pointer;
+    
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;    
+   overflow: hidden;    
+}
+
+.bannerSize{ 
+width: 300px; 
+height: 600px; 
+}
+
+.bannerDetails {
+    background-color: black;
+    background-image: url('hallo-hi-banners-assets-1/hi.png');
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+    background-position-y: 20px;
+    background-size: 45px;
+}
+
+.safespace {
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: -30px;
+    font-size: 30px;
+}
+
+p {
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+img {
+   transform: rotate(90deg);
+   margin-left: 30px;
+   margin-top: -30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 25px 80px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+a :visited {
+    color: white;
+}
